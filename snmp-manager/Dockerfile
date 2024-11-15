@@ -7,3 +7,4 @@ RUN	apt update && \
 	apt install -y snmp
 
 COPY	bashrc_sample	/root/.bashrc
+COPY	debian.sources	/etc/apt/sources.list.d/debian.sources
